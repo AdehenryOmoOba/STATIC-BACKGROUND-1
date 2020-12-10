@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./pix.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.backg2 {
+  margin: 20px auto;
+  height: 100%;
+  padding: 20px 50px;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+.backg2 h1,
+p {
+  line-height: 40px;
+  text-align: center;
+  color: yellow;
+}
+button {
+  width: 100px;
+  margin: 20px auto;
+  padding: 10px 30px;
+  background-color: yellow;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
